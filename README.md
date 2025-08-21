@@ -23,7 +23,8 @@ paper-code/
 │  └─ utils_dynamicConv.py           # TempModule & dynamic conv utilities
 │
 ├─ scripts/
-│  └─ print_summary.py               # FLOPs/Params (THOP), input/output shapes, timing
+│  ├─ print_summary.py               # FLOPs/Params (THOP), input/output shapes, timing
+│  └─ demo_infer.py                  # tiny inference demo (optional)
 │
 └─ tests/
    └─ test_forward_auto_device.py    # smoke test (CPU/GPU auto), tiny backward
@@ -182,5 +183,3 @@ The tests choose cuda:0 explicitly to avoid cuda/cuda:0 comparison issues.
 
 MKL / libgomp
 See the environment note in Installation.
-
-Contributions and issues are welcome!
