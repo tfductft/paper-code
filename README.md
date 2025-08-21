@@ -5,7 +5,7 @@
 This repository provides the reference PyTorch implementation of ViT_DEAM, a two-stream model that uses a ViT (features-only) backbone and our Difference Extraction Attention Module (DEAM) with DCAB to predict pose deltas from a pair of images (desired vs. current).
 
 - Paper (PDF in repo): Transformer_Driven_Visual_Servoing_and_Dual_Arm_Impedance_Control_for_Fabric_Texture_Matching.pdf
-- DOI: 10.36227/techrxiv.175493452.28291434/v1
+- DOI: [10.36227/techrxiv.175493452.28291434/v1](https://doi.org/10.36227/techrxiv.175493452.28291434/v1)
 
 ⚠️ This code focuses on the model, forward pass, and profiling. Training/control-loop code is intentionally minimal to keep the package lightweight for reproducibility.
 
